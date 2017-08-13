@@ -1,0 +1,26 @@
+ <nav id="topMenu" class="desktop"><ul id="TopNav" class="MenuBarHorizontal">
+      <li> <a href="../index.php">Home</a></li>
+      <li><a href="../members.php">Members</a>          
+  <li><a href="../Research/research.php" class="MenuBarItemSubmenu">Research</a>
+        <ul>
+          <li><a href="../Research/computationalCancerBiology.php" >Computational Biology and Translational Bioinformatics in Cancer Research</a></li>
+          <li><a href="../Research/proteinKinasesResearch.php" >Protein Kinases</a></li>
+          <li><a href="../Research/molecularChaperonesAndCancerResearch.php">Computatoinal Studies of Molecular Chaperones</a></li>
+          <li><a href="../Research/translationalBioinformatics.php" >Translational Bioinformatics and Drug Discovery</a></li>
+          <li><a href="../Research/relatedResearch.php">Related Links</a></li>
+        </ul>
+  </li>
+      <li><a href="../Publications/publications.php" class="MenuBarItemSubmenu">Publications</a>          
+        <ul>
+          <li><a href="../Publications/2015o2019.php">2015-2019</a></li>
+          <li><a href="../Publications/2010o2014.php">2010-2014</a></li>
+          <li><a href="../Publications/2005o2009.php">2005-2009</a></li>
+          <li><a href="../Publications/2000o2004.php">2000-2004</a></li>
+          <li><a href="../Publications/1995o1999.php">1995-1999</a></li>
+          <li><a href="../Publications/1990o1994.php">1990-1994</a></li>
+          <li><a href="../Publications/o1990.php">Before 1990</a></li>
+        </ul>
+    <li><a href="../aboutUs.php">About Us</a>  </li>
+    <li><a href="../contact.php">Contact Us</a></li>
+    </ul>
+    <div class="clear"></div></nav>

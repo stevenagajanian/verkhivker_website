@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'luxirb';
+	src: url('luxirb-webfont.eot');
+	src: url('luxirb-webfont.eot?#iefix') format('embedded-opentype'),
+		url('luxirb-webfont.woff') format('woff'),
+		url('luxirb-webfont.ttf') format('truetype'),
+		url('luxirb-webfont.svg') format('svg');
+}

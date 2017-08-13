@@ -1,0 +1,36 @@
+@media screen and (min-width: 769px){
+.mobile {display: none !important;}}
+#topMenu { width: 100%; margin: 0 auto; line-height: 100%; z-index: 1000; vertical-align: bottom; display: block; height: auto; height: auto; min-width: 960px; border-top: 2px inset #FFF; border-bottom: 1px inset #000; min-height: 35px; background: #70142F url(../images/gradient.png) repeat-x 0 -110px; }
+#TopNav { margin: 0 auto; line-height: 100%; z-index: 1000; vertical-align: bottom; padding: 0 5px 0px; width: 850px; }
+.MenuBarItemSubmenu { background-image: url(/SpryAssets/SpryMenuBarDownWHITE.gif); background-repeat: no-repeat !important; background-position: 94% 50%; }
+.MenuBarItemSubmenuL { background: url(../SpryAssets/SpryMenuBarRight.png) no-repeat 96% 50%; }
+.greyside { background-image: url(/SpryAssets/SpryMenuBarRightBLACK.gif); background-repeat: no-repeat !important; background-position: 92% 50%; }
+#TopNav li { float: left; position: relative; list-style: none; margin: 0 5px; padding: 0; z-index: 1000; }
+#TopNav a { font-size: medium; font-weight: bold; color: #fff; text-decoration: none; display: block; padding: 14px 20px; margin: 0; text-shadow: 0 1px 1px rgba(0,0,0,.3); font-family: Arial, Helvetica, sans-serif; }
+#TopNav a:hover { background: #000; color: #fff; }
+#TopNav li:hover > a { background: #000; border-top: solid 1px #f8f8f8; padding: 10px 20px; -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 1px rgba(0,0,0,.2); box-shadow: 0 1px 1px rgba(0,0,0,.2); text-shadow: 0px 1px 0px #666;  }
+#TopNav ul li:hover a, #TopNav li:hover li a { border: none; color: #FFF; padding: 5px 3px; }
+#TopNav ul a:hover { color: #fff !important; text-shadow: 0 1px 1px rgba(0,0,0,.1); padding: 5px 3px; background-image: url(/images/gradient.png); background-repeat: repeat-x; background-position: 0 -100px; font-weight: bold; }
+#TopNav li:hover > ul { display: block; }
+#TopNav ul { display: none; text-align: left; vertical-align: middle; margin: 0; padding: 5px 3px; width: 250px; position: absolute; top: 35px; left: 15px; background: #621C31; border: solid 1px #b4b4b4; -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3); -moz-box-shadow: 0 1px 3px rgba(0,0,0,.3); box-shadow: 0 1px 3px rgba(0,0,0,.3); }
+#TopNav ul li { float: none; margin: 0; padding: 0; }
+#TopNav ul a { font-weight: normal; color: #FFFFFF; }
+#TopNav ul ul { left: 180px; top: -3px; }
+
+#SideNav { margin: 1em auto; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: block; z-index: 900; border-radius: 15px; box-shadow: 1px 1px 4px 2px #666666; background: #FFFFFF url(/backgrounds/wavegrid/wavegrid.png) repeat; }
+#SideNav li { margin: 0px; position: relative; list-style: none; z-index: 100 !important; border-radius: 15px; border-bottom: 1px solid #999999; }
+#SideNav a { font-weight: bold; color: #333; text-decoration: none; display: block; padding: 10px 10px 10px 40px; -webkit-border-radius: 15px; -moz-border-radius: 15px; text-shadow: 0 1px 1px rgba(0,0,0,.3); border-radius: 15px; font-family: 'Alegreya', serif; font-size: large; }
+#SideNav a:hover { background: #000; color: #666; border-radius: 15px; }
+#SideNav li:hover > a { background: #666 url(/images/logoXS.png) no-repeat 4px center; color: #FFFFFF; margin: 0px; -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 1px rgba(0,0,0,.2); box-shadow: 0 1px 1px rgba(0,0,0,.2); border-radius: 15px; }
+#SideNav ul li:hover a, #TopNav li:hover li a { border: none; color: #FFF; padding: 10px 0px 10px 10px; -webkit-box-shadow: none; -moz-box-shadow: none; z-index: 900 !important; }
+#SideNav ul a:hover { background: #677E6A url(/images/gradient.png) repeat-x 0 -100px !important; color: #fff !important; padding: 10px 0px 10px 7px; -webkit-border-radius: 10px; -moz-border-radius: 10px; text-shadow: 0px 1px 1px rgba(0,0,0,.8); z-index: 1000 !important; }
+#SideNav li:hover > ul { display: block; float: left; }
+#SideNav ul { display: none; text-align: left; margin: 0; padding: 0; width: 190px; position: absolute; top: 0px; left: 205px; background: #ddd url(/images/gradient.png) repeat-x 0 0; border: solid 1px #b4b4b4; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3); -moz-box-shadow: 0 1px 3px rgba(0,0,0,.3); box-shadow: 0 1px 3px rgba(0,0,0,.3); z-index: 1000; }
+#SideNav ul li { padding: 0; z-index: 500px; }
+#SideNav ul a { font-weight: bold; padding: 10px 0px 10px 7px; }
+#SideNav ul ul { left: 180px; top: -3px; }
+.orange { color: #FF6600; }
+li a .orange:hover { color: #000 !important; }
+
+#SideNav li ul li a{ z-index: 1000; }
+#leftCol .box p { margin: 0px 0px 10px; padding: 0px; }
